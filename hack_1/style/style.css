@@ -1,0 +1,70 @@
+:root{
+
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+body{
+    margin: 0%;
+}
+#contenedor{ 
+  background: none;
+  position: relative;
+}
+
+#caja-1{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bg-blue);
+}
+
+#caja-2{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color:var(--bg-wine);  
+}
+
+
+#caja-3{ 
+    position: absolute;
+    width: 80%;
+    height: 120px;
+    background-color:var(--bg-wine);
+    margin-top: 2%;
+    right: 0px;
+}
+#caja-4{
+    position: absolute;
+    width: 80%;
+    height: 120px;
+    background-color:var(--bg-wine);
+    margin-top: 13%;
+    right: 0px;
+}
+#caja-5{
+    position: absolute;
+    width: 80%;
+    height: 120px;
+    background-color:var(--bg-wine);
+    margin-top: 24%;
+    right: 0px;
+}
+
+#caja-6{
+    position: absolute;
+    width: 80%;
+    height: 120px;
+    background-color:var(--bg-wine);
+    margin-top: 35%;
+    right: 0px;
+}
+#caja-7{
+    position: relative;
+    width: 90%;
+    height: 90px;
+    background-color:var(--bg-wine);
+    margin-top: 46%;
+    left: 5%;
+    bottom: 10px;
+}
